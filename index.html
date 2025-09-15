@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="formImage">
+            <img src="assets/img/undraw_shopping_a55o.svg" alt="mulher comprando">
+        </div>
+
+        <div class="form">
+            <form action="#" class="containerForm">
+                <header>
+                    <h1>Cadastre-se
+                        <hr>
+                    </h1>
+                    
+                    <button><a href="#">Entrar</a></button>
+                </header>
+
+                <div class="areaPreenchimento">
+
+                    <div class="areaInput">
+                        <label for="nome">Primeiro Nome</label>
+                        <br>
+                        <input type="text" placeholder="Digite seu primeiro nome" name="nome" required>
+                    </div>
+
+                    <div class="areaInput">
+                        <label for="sobrenome">Sobrenome</label>
+                        <br>
+                        <input type="text" placeholder="Digite seu sobrenome" name="sobrenome" required>
+                    </div>
+
+                    <div class="areaInput">
+                        <label for="email">E-mail</label>
+                        <br>
+                        <input type="text" placeholder="Digite seu e-mail" name="email" required>
+                    </div>
+
+                    <div class="areaInput">
+                        <label for="celular">Celular</label>
+                        <br>
+                        <input type="tel" placeholder="(xx) xxxx-xxxx" name="celular" required>
+                    </div>
+
+                    <div class="areaInput">
+                        <label for="senha">Senha</label>
+                        <br>
+                        <input type="password" placeholder="Digite sua senha" name="senha" required>
+                    </div>
+
+                    <div class="areaInput">
+                        <label for="corfimarSenha">Confirme sua senha</label>
+                        <br>
+                        <input type="password" placeholder="Digite sua senha novamente" name="confirmarSenha" required>
+                    </div>
+                    
+                    <div class="areaInputGenero">
+                        <label for="corfimarSenha">Gênero</label>
+
+                        <div class="inputGenero">
+                            <br>
+
+                            <div class="opcoes">
+                                <input type="radio"  name="genero" value="feminino" >
+                                <label for="feminino">Feminino</label>
+                            </div>
+
+                            <div class="opcoes">
+                                <input type="radio" name="genero" value="masculino">
+                                <label for="masculino">Masculino</label>
+                            </div>
+
+                            <div class="opcoes">
+                                
+                                <input type="radio" name="genero" value="Outros" >
+                                <label for="Outros">Outros</label>
+                            </div>
+
+                            <div class="opcoes">
+                                
+                                <input type="radio" name="genero" value="prefiro não dizer">
+                                <label for="prefiro não dizer">Prefiro não dizer</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="botaoConti">
+                        
+                        <button class="buttonContinuar"><a href="#">Continuar</a></button>
+                    </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
